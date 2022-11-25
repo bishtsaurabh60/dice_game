@@ -229,6 +229,10 @@ i {
     margin-bottom: 5px;
     font-size: 1.5rem;
   }
+
+  .instruction{
+    bottom:8rem;
+  }
 }
 
 @media screen and (max-width: 676px) {
@@ -304,17 +308,21 @@ i {
   }
 
   .instruction {
-    display: none;
+    /* display: none; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top:49rem;
   }
 
   .btn-new {
-    top: 27rem;
+    top: 37rem;
   }
   .roll-hold-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 25rem;
+    margin-top: 32rem;
     width: 100%;
   }
   .dice-container {
@@ -326,6 +334,6 @@ i {
     height: 50px;
   }
   .final-score {
-    margin-top: 1.5rem;
+    margin-top: 14rem;
   }
 }
